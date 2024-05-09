@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background-color: #0c0c0c;
+}
+
+.judul h1 {
+  font-family: "Poppins";
+  color: white;
+  font-size: 25px;
+  margin: 50px 50px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.judul a {
+  text-decoration: none;
+}
+
+.judul h1:hover {
+  color: #f2613f;
+  font-size: 30px;
+}
+
+.box {
+  width: 490px;
+  height: 350px;
+  box-shadow: 5px 5px 20px #f0f0f0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+.top {
+  width: 100%;
+  height: 80px;
+  background: #481e14;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.top h1 {
+  margin: 0;
+  font-size: 30px;
+  color: crimson;
+  text-align: center;
+  padding-top: 10px;
+  font-family: sans-serif;
+}
+.mid {
+  width: 100%;
+  height: 150px;
+  background: #9b3922;
+}
+.mid .chat {
+  width: 100%;
+}
+.mid .chat h2 {
+  margin: 0;
+  font-size: 30px;
+  color: #000;
+  padding: 30px 20px;
+  text-align: center;
+}
+.mid .chat p {
+  margin: 0;
+  height: 30px;
+  font-size: 28px;
+  color: #000;
+  text-align: center;
+  background-color: #9b3922;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.input {
+  height: 100%;
+  width: 489px;
+  overflow: hidden;
+  color: white;
+}
+.input input {
+  color: white;
+  width: 100%;
+  height: 110px;
+  outline: none;
+  border: none;
+  padding-left: 30px;
+  padding-top: 0;
+  font-family: monospace;
+  font-size: 50px;
+  background: #481e14;
+}
+
+@media (768px) {
+  .box {
+    width: 300px;
+    height: 200px;
+    box-shadow: 5px 5px 20px #f0f0f0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+  }
+}
